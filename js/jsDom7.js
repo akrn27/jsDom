@@ -27,3 +27,10 @@
 // });
 
 
+const p3 = document.querySelector('.p3');
+p3.addEventListener('mouseenter', function(){
+    p3.style.backgroundColor = 'black';
+});
+p3.addEventListener('click', function(){
+    p3.style.color = 'white';
+})
